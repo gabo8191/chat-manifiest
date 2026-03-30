@@ -1,0 +1,33 @@
+{
+  "name": "Chat para Héroes - Edición Experimental",
+  "short_name": "Chat Extra",
+  "description": "Manifest con claves nuevas, experimentales o de uso menos común.",
+  "start_url": "index.html?utm_source=pwa&manifest=otros",
+  "display": "standalone",
+  "theme_color": "#f1c40f",
+  "background_color": "#f39c12",
+  "icons": [
+    {
+      "src": "img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "scope_extensions": [
+    { "origin": "*.example.com" },
+    { "origin": "specific.example.com" }
+  ],
+  "note_taking": {
+    "new_note_url": "/index.html?action=new-note",
+    "capture_links": true
+  },
+  "edge_side_panel": {
+    "preferred_width": 480
+  }
+}

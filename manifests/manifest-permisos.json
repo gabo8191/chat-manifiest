@@ -1,0 +1,61 @@
+{
+  "name": "Chat para Héroes - Edición Capacidades",
+  "short_name": "Chat Caps",
+  "start_url": "index.html?utm_source=pwa&manifest=permisos",
+  "display": "standalone",
+  "theme_color": "#16a085",
+  "background_color": "#1abc9c",
+  "icons": [
+    {
+      "src": "img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "share_target": {
+    "action": "index.html?action=share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "media",
+          "accept": ["image/jpeg", "image/png", "image/gif", "video/mp4"]
+        }
+      ]
+    }
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+chathero",
+      "url": "index.html?action=protocol&target=%s"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "index.html?action=open-file",
+      "accept": {
+        "text/plain": [".txt", ".md"],
+        "image/jpeg": [".jpg", ".jpeg"],
+        "application/json": ".json"
+      },
+      "icons": [
+        {
+          "src": "img/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ],
+      "launch_type": "single-client"
+    }
+  ]
+}

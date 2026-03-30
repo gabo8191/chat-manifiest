@@ -1,0 +1,57 @@
+{
+  "id": "/?manifest=metadata",
+  "name": "Chat para Héroes - Edición Metadatos",
+  "short_name": "Chat Meta",
+  "description": "Una PWA de chat de ejemplo que demuestra el uso de claves de metadatos del manifest para una rica experiencia de instalación.",
+  "lang": "es-MX",
+  "dir": "ltr",
+  "categories": ["social", "chat", "education"],
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8cefd5e1b",
+  "start_url": "index.html?utm_source=pwa&manifest=metadata",
+  "scope": "./",
+  "theme_color": "#2c3e50",
+  "background_color": "#ecf0f1",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/screenshot-mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Vista principal del chat en un dispositivo móvil"
+    },
+    {
+      "src": "img/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Vista principal del chat en un escritorio"
+    }
+  ]
+}

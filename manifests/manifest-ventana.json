@@ -1,0 +1,27 @@
+{
+  "name": "Chat para Héroes - Edición Ventana",
+  "short_name": "Chat Win",
+  "start_url": "index.html?utm_source=pwa&manifest=ventana",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "minimal-ui", "standalone"],
+  "orientation": "any",
+  "launch_handler": {
+    "client_mode": ["focus-existing", "navigate-new"]
+  },
+  "theme_color": "#2980b9",
+  "background_color": "#3498db",
+  "icons": [
+    {
+      "src": "img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
